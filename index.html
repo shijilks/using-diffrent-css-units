@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Fixed size div using pixels */
+    .fixed-size {
+      width: 200px;
+      height: 150px;
+      border: 2px solid #333;
+      margin: 10px;
+    }
+
+    /* Responsive container using percentage */
+    .container {
+      width: 80%;
+      margin: 10px;
+    }
+    p {
+  line-height: 1.5ex; /* 1.5 times the x-height of the font */
+}
+
+.code {
+  width: 20ch; /* 20 times the width of the '0' character */
+}
+
+
+    /* Grid layout using fractional units */
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 2fr 3fr 4fr;
+      gap: 10px;
+      margin: 10px;
+    }
+
+    .grid-item {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <title>CSS Units Example</title>
+</head>
+<body>
+
+  <div class="fixed-size">Fixed Size (200px x 150px)</div>
+
+  <div class="container">
+    <p>This container has a width of 80% of the parent element.</p>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-item">1fr</div>
+    <div class="grid-item">2fr</div>
+    <div class="grid-item">3fr</div>
+    <div class="grid-item">4fr</div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+div {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #333;
+  }
+  .container {
+    width: 80%;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  .header {
+    font-size: 5vw;
+  }
+  
+  .main-content {
+    height: 70vh;
+  }
+  body {
+    font-size: 16px; /* 1rem is 16px */
+  }
+  
+  .box {
+    padding: 1.5em; /* 1.5 times the font-size of the parent */
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  p {
+    line-height: 1.5ex; /* 1.5 times the x-height of the font */
+  }
+  
+  .code {
+    width: 20ch; /* 20 times the width of the '0' character */
+  }
+  .fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  .rotate {
+    transform: rotate(45deg);
+  }
+          
